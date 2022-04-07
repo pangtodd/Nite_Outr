@@ -24,8 +24,8 @@
           <label for="searchLocation"><h4>What's your ZIP Code?</h4></label>
           <nav class="navbar-dark bg-primary" type="text">
             <form class="w-100 p-1">
-            <input class="form-control me-sm-2" id="searchLocation" type="text" placeholder="Enter your zip code">
-          </form>
+              <input class="form-control me-sm-2" id="searchLocation" type="text" placeholder="Enter your zip code">
+            </form>
           </nav>
           <br>
           <h4>How far do you want to travel?</h4>
@@ -70,43 +70,43 @@
         <div class="showRestaurants"></div>
         <div class="showErrors"></div>
         <div class="showBadNews"></div>
+      </div>
+      <div class="col">
+        <br><br><br><br><br>
+        <div class="mapNote">
+          <p>restaurant results are in <span style="color:red">red</span>, after-dinner activities are <span style="color:rgb(122, 120, 120)">grey</span>.</p>
         </div>
-        <div class="col">
-          <br><br><br><br><br>
-          <div class="mapNote">
-            <p>restaurant results are in <span style="color:red">red</span>, after-dinner activities are <span style="color:rgb(122, 120, 120)">grey</span>.</p>
-          </div>
-          <div class ="map"></div>
+        <div class ="map"></div>
+      </div>
+      <div class="col">
+        <div class="activities">
+          <h2>After Dinner activities</h2>
+          <br>
+          <h4>Let's Keep This Party Rolling!</h4>
+          <nav class="navbar-dark bg-primary">
+            <form class="w-100 p-1">
+              <select class = "form-control" id="soManyActivities">
+                <option value="movietheaters">Find a movie</option>
+                <option value="bars">Get some drinks</option>
+                <option value="axethrowing">Axe throwing is quite popular these days</option>
+                <option value="musicvenues">Go see some live music!</option>
+                <option value="comedyclubs">Find some live comedy?</option>
+                <option value="ziplining">Ziplining</option>
+                <option value="arcades">Check out an arcade!</option>
+                <option value="gardens">Botanical Gardens</option>
+                <option value="casinos">Gambling is never a bad idea</option>
+                <option value="funeralservices">A romantic stroll through a cemetary</option>
+                <option value="adultentertainment">No kids allowed</option>
+              </select>
+            </form>
+          </nav>
+          <br>
+          <button class="btn-primary" id="enterSearchA">Search</button>
+          <div class="showActivities"></div>
+          <div class="showBadNewsA"></div>
+          <div class="showErrorsA"></div>          
         </div>
-        <div class="col">
-          <div class="activities">
-            <h2>After Dinner activities</h2>
-            <br>
-            <h4>Let's Keep This Party Rolling!</h4>
-            <nav class="navbar-dark bg-primary">
-              <form class="w-100 p-1">
-                <select class = "form-control" id="soManyActivities">
-                  <option value="movietheaters">Find a movie</option>
-                  <option value="bars">Get some drinks</option>
-                  <option value="axethrowing">Axe throwing is quite popular these days</option>
-                  <option value="musicvenues">Go see some live music!</option>
-                  <option value="comedyclubs">Find some live comedy?</option>
-                  <option value="ziplining">Ziplining</option>
-                  <option value="arcades">Check out an arcade!</option>
-                  <option value="gardens">Botanical Gardens</option>
-                  <option value="casinos">Gambling is never a bad idea</option>
-                  <option value="funeralservices">A romantic stroll through a cemetary</option>
-                  <option value="adultentertainment">No kids allowed</option>
-                </select>
-              </form>
-            </nav>
-            <br>
-            <button class="btn-primary" id="enterSearchA">Search</button>
-            <div class="showActivities"></div>
-            <div class="showBadNewsA"></div>
-            <div class="showErrorsA"></div>          
-          </div>
-        </div>
+      </div>
     </div>    
   </div>
 </body>
